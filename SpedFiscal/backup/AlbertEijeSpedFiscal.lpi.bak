@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AlbertEijeSpedFiscal"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="zcomponent"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="ACBr_SPED"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="44">
+      <Unit0>
+        <Filename Value="AlbertEijeSpedFiscal.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AlbertEijeSpedFiscal"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="UMenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMenu"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="UDataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDataModule"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="UDataModule"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Biblioteca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Biblioteca"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Constantes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Constantes"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="USpedFiscal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FSpedFiscal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="USpedFiscal"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Controller\SpedFiscalController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SpedFiscalController"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="VO\EmpresaVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EmpresaVO"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="VO\ContadorVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ContadorVO"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="VO\ProdutoVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProdutoVO"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="VO\UnidadeProdutoVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnidadeProdutoVO"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Controller\UnidadeController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnidadeController"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Controller\ProdutoController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProdutoController"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Controller\EmpresaController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EmpresaController"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Controller\ContadorController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ContadorController"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Controller\ImpressoraController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ImpressoraController"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="VO\ImpressoraVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ImpressoraVO"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="Controller\NotaFiscalController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NotaFiscalController"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="VO\NotaFiscalCabecalhoVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NotaFiscalCabecalhoVO"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="VO\NotaFiscalDetalheVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NotaFiscalDetalheVO"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Controller\RegistroRController.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RegistroRController"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="VO\R02VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="R02VO"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="VO\R03VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="R03VO"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="VO\R04VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="R04VO"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="VO\R05VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="R05VO"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="VO\ViewSpedNfeEmitenteVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedNfeEmitenteVO"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="VO\ViewSpedNfeDestinatarioVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedNfeDestinatarioVO"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="VO\ViewSpedNfeItemVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedNfeItemVO"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="VO\ProdutoAlteracaoItemVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProdutoAlteracaoItemVO"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="VO\TributOperacaoFiscalVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TributOperacaoFiscalVO"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="VO\UnidadeConversaoVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnidadeConversaoVO"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="VO\NfeCabecalhoLimpaVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NfeCabecalhoLimpaVO"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="VO\ViewSpedNfeDetalheVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedNfeDetalheVO"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="VO\ViewSpedC190VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC190VO"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="VO\NfeCupomFiscalReferenciadoVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NfeCupomFiscalReferenciadoVO"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="VO\ViewSpedC300VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC300VO"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="VO\ViewSpedC390VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC390VO"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="VO\ViewSpedC370VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC370VO"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="VO\ViewSpedC425VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC425VO"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="VO\ViewSpedC321VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC321VO"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="VO\ViewSpedC490VO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewSpedC490VO"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="VO\NfeTransporteVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NfeTransporteVO"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="VO\FiscalApuracaoIcmsVO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FiscalApuracaoIcmsVO"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="UPreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPreview"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UPreview"/>
+      </Unit43>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="AlbertEijeSpedFiscal"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="Controller;VO"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
